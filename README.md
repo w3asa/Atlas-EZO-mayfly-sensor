@@ -6,5 +6,5 @@ Mayfly Setup Proceedure:
 3.	The RTD in the Sensorex probe seems to have fairly consistant calibration using the m and b coefficients in the code (float m = -.0927, b = 72.653;).  The accuracy can be checked at two points; typically, an ice bath at 0ºC and warm water at about 40ºC with errors used to correct the coeficients.
 4.	Before loading the “EC Monitor” code be sure to set the EZO to continuous update of 2 seconds (“c,2”).  It was found that with a 1 second update some devices would produce a zero reading for unknown reasons.  However, when the update was set to two seconds the problem did not reoccur.
 5.	Load the “EC monitor” code with the values of sleepMinutes, FILE_NAME,  and LOGGERNAME set to user preference. 
-
+8-18-2021 need to update this for upgrade to 4G ell service
  
